@@ -2,6 +2,35 @@
 <html>
 <head>
     <title>Send Mail</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        /* Style the "Create Mail" link as a button */
+        a.create-mail-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        a.create-mail-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -9,8 +38,8 @@
     </header>
 
     <main>
-        <p>To send the petition to District Collectors, Click on Create Mail:</p>
-        <a href="mailto:unnikrishnant8@gmail.com?subject=Ensure Safety of rowers&body=This is a test">Create Mail</a>
+        <p>To send the petition to District Collectors, click on:</p>
+        <a class="create-mail-button" href="mailto:unnikrishnant8@gmail.com?subject=Ensure Safety of rowers&body=This is a test">Create Mail</a>
     </main>
 
     <footer>
